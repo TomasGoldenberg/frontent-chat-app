@@ -1,0 +1,53 @@
+.form {
+    display: flex;
+    border-top: 2px solid #D3D3D3;
+  }
+  
+  .input {
+    border: none;
+    border-radius: 0;
+    padding: 5%;
+    width: 80%;
+    font-size: 1.2em;
+  }
+  
+  input:focus, textarea:focus, select:focus{
+    outline: none;
+  }
+  
+  
+
+  .sendButton {
+    -webkit-border-radius: 49px;
+    -moz-border-radius: 49px;
+    border-radius: 49px;
+    color: #cd4beb;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 100;
+ 
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 20px 0px rgb(0, 89, 160,.5);
+    -webkit-box-shadow: 1px 1px 20px 0px rgb(0, 89, 160,.5);
+    -moz-box-shadow: 1px 1px 20px 0px rgb(0, 89, 160,.5);
+    text-shadow: 1px 1px 20px rgb(0, 89, 160,.5);
+    border: solid #cd4beb 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    width: 20%;
+    height: 50px;
+    margin-top:10px;
+    margin-right:10px;
+ }
+ 
+ .sendButton:hover {
+    
+    background: rgb(205, 75, 235,.7);
+   color: white;
+    -webkit-border-radius: 49px;
+    -moz-border-radius: 49px;
+    border-radius: 49px;
+    text-decoration: none;
+ }

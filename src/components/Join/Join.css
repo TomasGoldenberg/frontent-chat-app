@@ -23,11 +23,11 @@ html , body{
 
 .joinInnerContainer {
     height: 50vh;
-    width: 70%;
+    width: 71%;
     border-radius: 50px;
     background: #9c48ff;
     box-shadow:  -20px -20px 60px #401e69, 
-                 20px 20px 60px #f872ff;
+                 20px 20px 60px #561e58;
   }
 
   .joinInput{
